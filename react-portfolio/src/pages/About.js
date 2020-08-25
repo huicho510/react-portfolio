@@ -1,9 +1,6 @@
 import React from 'react'
 import Portraitsm from '../images/portraitsm.jpg'
-
-
-
-
+import Footer from '../components/Footer'
 
 
 const About = () => {
@@ -47,9 +44,7 @@ const About = () => {
       </div>
     </main>
 
-    <footer id="main-footer">
-      Copyright &copy; 2020
-    </footer>
+    <Footer />
         </div>
     )
 }

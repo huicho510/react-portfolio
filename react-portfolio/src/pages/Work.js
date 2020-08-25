@@ -9,6 +9,7 @@ import Quiz from "../images/projects/quiz.jpg";
 import Schedule from "../images/projects/schedule.jpg";
 import Staff from "../images/projects/staff.jpg";
 import Weather from "../images/projects/weather.jpg";
+import Footer from "../components/Footer"
 
 const Work = () => {
   return (
@@ -212,7 +213,7 @@ const Work = () => {
         </div>
       </main>
 
-      <footer id="main-footer">Copyright &copy; 2020</footer>
+      <Footer />
     </div>
   );
 };
