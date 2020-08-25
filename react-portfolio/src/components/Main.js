@@ -4,7 +4,7 @@ import Nav from '../components/Nav'
 
 const Main = () => {
   return (
-    <div className='body bg-img'>
+    <div className='bg-img'>
       <Nav />
       <main className="home">
         <h1 className="lg-heading">
@@ -23,7 +23,7 @@ const Main = () => {
           </a>
         </div>
       </main>
-    </div>
+      </div>
   );
 };
 
