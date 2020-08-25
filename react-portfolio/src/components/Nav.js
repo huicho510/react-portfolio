@@ -1,8 +1,9 @@
 import React from "react";
+import "../styles/Nav.css";
 
 const Nav = () => {
   return (
-    <div>
+    
       <header>
         <div className="menu-btn">
           <div className="btn-line"></div>
@@ -16,29 +17,30 @@ const Nav = () => {
           </div>
           <ul className="menu-nav">
             <li className="nav-item current">
-              <a href="./index.html" className="nav-link">
+              <a href="./main" className="nav-link">
                 Home
               </a>
             </li>
             <li className="nav-item">
-              <a href="./about.html" className="nav-link">
+              <a href="./about" className="nav-link">
                 About Me
               </a>
             </li>
             <li className="nav-item">
-              <a href="./work.html" className="nav-link">
+              <a href="./work" className="nav-link">
                 My Work
               </a>
             </li>
             <li className="nav-item">
-              <a href="./contact.html" className="nav-link">
+              <a href="./contact" className="nav-link">
                 Contact Me
               </a>
             </li>
           </ul>
         </nav>
+        
       </header>
-    </div>
+    
   );
 };
 

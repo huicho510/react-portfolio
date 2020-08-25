@@ -1,11 +1,10 @@
 import React from "react";
 import "../styles/Nav.css";
-import Nav from '../components/Nav'
+
 
 const Main = () => {
   return (
-    <div className='bg-img'>
-      <Nav />
+      <div className = "bg-img">
       <main className="home">
         <h1 className="lg-heading">
           Luis <span className="text-secondary">Cervantes</span>
@@ -24,6 +23,7 @@ const Main = () => {
         </div>
       </main>
       </div>
+      
   );
 };
 
