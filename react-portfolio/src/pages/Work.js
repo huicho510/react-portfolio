@@ -33,15 +33,6 @@ const Work = () => {
             description={"A daily and weekly forecast weather generator"}
           />
           <Card
-            image={Burg}
-            site={"https://burger-dine.herokuapp.com/"}
-            repo={"https://github.com/huicho510/burger"}
-            name={"Burger App"}
-            description={
-              "Input a burger name and eat it. This data is being created in MYSQL database"
-            }
-          />
-          <Card
             image={Notes}
             site={"https://notes-app8.herokuapp.com/notes"}
             repo={"https://github.com/huicho510/Note-Taker"}
@@ -52,11 +43,29 @@ const Work = () => {
           />
           <Card
             image={People}
+            site={"https://fitness-tracker-3.herokuapp.com/"}
+            repo={"https://github.com/huicho510/work-out-tracker"}
+            name={"Work-out Tracker"}
+            description={
+              "A fitness app that allows the user to view, create, and track daily workouts."
+            }
+          />
+          <Card
+            image={People}
             site={"https://helping-hand-1.herokuapp.com/"}
             repo={"https://github.com/huicho510/Volunteer-Application"}
             name={"Helping Hand"}
             description={
               "A volunteer website that allows organizations to post opeings and for people to apply for those positions"
+            }
+          />
+           <Card
+            image={Burg}
+            site={"https://burger-dine.herokuapp.com/"}
+            repo={"https://github.com/huicho510/burger"}
+            name={"Burger App"}
+            description={
+              "Input a burger name and eat it. This data is being created in MYSQL database"
             }
           />
         </div>
