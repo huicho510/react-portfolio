@@ -10,6 +10,7 @@ import Schedule from "../images/projects/schedule.jpg";
 import Staff from "../images/projects/staff.jpg";
 import Weather from "../images/projects/weather.jpg";
 import Footer from "../components/Footer"
+import Card from "../components/Card"
 
 const Work = () => {
   return (
@@ -20,6 +21,13 @@ const Work = () => {
         </h1>
         <h2 className="sm-heading">Check out my projects</h2>
         <div className="projects">
+          <Card 
+          image={Music}
+          site={"https://huicho510.github.io/Music-Buffet/"}
+          repo={"https://github.com/huicho510/Music-Buffet"}
+          name= {"Music Buffet"}
+          description={"An app that generates artist similar to the ones you already like"}
+          />
           <div className="item">
             <a href="#!">
               <img src={Music} alt="project" />
