@@ -9,13 +9,10 @@ const Main = () => {
         </h1>
         <h2 className="sm-heading">Web Developer, Programmer, & Designer</h2>
         <div className="icons">
-          <a href="#!">
-            <i className="fab fa-facebook fa-2x"></i>
-          </a>
-          <a href="#!">
+          <a href="https://www.linkedin.com/in/luis-cervantes-8b4035190/">
             <i className="fab fa-linkedin fa-2x"></i>
           </a>
-          <a href="#!">
+          <a href="https://github.com/huicho510">
             <i className="fab fa-github fa-2x"></i>
           </a>
         </div>
