@@ -22,16 +22,31 @@ const About = () => {
               interactions.
             </p>
             <h4>Skills & Technologies</h4>
-            <div id="skills">
-            <i  class="fab fa-react">React</i>
-            <i class="fab fa-js-square">Javascript</i>
-            <i class="fab fa-node">Node.js</i>
-            <i class="fab fa-html5">Html</i>
-            <i class="fab fa-css3-alt">Css</i>
-            <i class="fab fa-sass">Sass</i>
-            <i class="fab fa-bootstrap">Bootstrap</i>
-            <i class="fas fa-database">MYSQL & MongoDB</i>
-            </div>
+
+            <i id="skills" class="fab fa-react">
+              React
+            </i>
+            <i id="skills" class="fab fa-js-square">
+              Javascript
+            </i>
+            <i id="skills" class="fab fa-node">
+              Node.js
+            </i>
+            <i id="skills" class="fab fa-html5">
+              Html
+            </i>
+            <i id="skills" class="fab fa-css3-alt">
+              Css
+            </i>
+            <i id="skills" class="fab fa-sass">
+              Sass
+            </i>
+            <i id="skills" class="fab fa-bootstrap">
+              Bootstrap
+            </i>
+            <i id="skills" class="fas fa-database">
+              MYSQL & MongoDB
+            </i>
           </div>
           {/* <div className="job job-1">
           <h3>Diablo Valley College</h3>
