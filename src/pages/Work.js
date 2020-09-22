@@ -5,6 +5,7 @@ import Lash from "../images/projects/lashport.jpg";
 import People from "../images/projects/people.jpg";
 import Weather from "../images/projects/weather.jpg";
 import Footer from "../components/Footer";
+import Workout from "../images/projects/workout.jpg"
 import Card from "../components/Card";
 
 const Work = () => {
@@ -43,7 +44,7 @@ const Work = () => {
           />
           
           <Card
-            image={People}
+            image={Workout}
             site={"https://fitness-tracker-3.herokuapp.com/"}
             repo={"https://github.com/huicho510/work-out-tracker"}
             name={"Work-out Tracker"}
