@@ -1,7 +1,7 @@
 import React from "react";
 import Music from "../images/projects/music.jpg";
 import Burg from "../images/projects/burg.jpg";
-import Notes from "../images/projects/notes.jpg";
+import Lash from "../images/projects/lashport.jpg";
 import People from "../images/projects/people.jpg";
 import Weather from "../images/projects/weather.jpg";
 import Footer from "../components/Footer";
@@ -16,6 +16,15 @@ const Work = () => {
         </h1>
         <h2 className="sm-heading">Check out my projects</h2>
         <div className="projects">
+        <Card
+            image={Lash}
+            site={"https://dees-cosmetics.herokuapp.com/"}
+            repo={"https://github.com/huicho510/Dees-Cosmetics"}
+            name={"Dee's Cosmetics"}
+            description={
+              "Shop for all your beauty needs. Cruelty free and 100% vegan products"
+            }
+          />
           <Card
             image={Music}
             site={"https://huicho510.github.io/Music-Buffet/"}
@@ -32,15 +41,7 @@ const Work = () => {
             name={"Weather App"}
             description={"A daily and weekly forecast weather generator"}
           />
-          <Card
-            image={Notes}
-            site={"https://notes-app8.herokuapp.com/notes"}
-            repo={"https://github.com/huicho510/Note-Taker"}
-            name={"Note Taker App"}
-            description={
-              "An app that lets you store notes in a database using CRUD"
-            }
-          />
+          
           <Card
             image={People}
             site={"https://fitness-tracker-3.herokuapp.com/"}
