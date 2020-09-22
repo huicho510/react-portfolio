@@ -19,6 +19,8 @@ const About = () => {
             Motivated professional looking to positively impact the computer
             programming world
           </p>
+          <h4>Skills & Technologies</h4>
+          <i class="fab fa-react">React</i>
         </div>
         <div className="job job-1">
           <h3>Diablo Valley College</h3>
