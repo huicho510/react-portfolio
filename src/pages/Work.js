@@ -7,6 +7,7 @@ import Weather from "../images/projects/weather.jpg";
 import Footer from "../components/Footer";
 import Workout from "../images/projects/workout.jpg"
 import Card from "../components/Card";
+import Netflix from "../images/projects/netflix.jpg"
 
 const Work = () => {
   return (
@@ -68,6 +69,15 @@ const Work = () => {
             name={"Burger App"}
             description={
               "Input a burger name and eat it. This data is being created in MYSQL database"
+            }
+          />
+           <Card
+            image={Netflix}
+            site={"https://netflix-clone-d47c3.firebaseapp.com/"}
+            repo={"https://github.com/huicho510/Netflix-clone"}
+            name={"Netflix Homepage Clone"}
+            description={
+              "Front-end Netflix landing page clone built with react"
             }
           />
         </div>
