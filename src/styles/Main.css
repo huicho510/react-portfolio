@@ -192,7 +192,7 @@ main {
   .projects img {
     width: 100%;
     border: 3px white solid;
-    cursor: none;
+    cursor: context-menu;
   }
     /* .projects img:hover {
       opacity: 0.5;
