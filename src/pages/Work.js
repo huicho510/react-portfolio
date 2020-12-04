@@ -19,6 +19,15 @@ const Work = () => {
         <h2 className="sm-heading">Check out my projects</h2>
         <div className="projects">
         <Card
+            image={Netflix}
+            site={"https://netflix-clone-d47c3.firebaseapp.com/"}
+            repo={"https://github.com/huicho510/Netflix-clone"}
+            name={"Netflix Homepage Clone"}
+            description={
+              "Front-end Netflix landing page clone built with react"
+            }
+          />
+        <Card
             image={Lash}
             site={"https://dees-cosmetics.herokuapp.com/"}
             repo={"https://github.com/huicho510/Dees-Cosmetics"}
@@ -71,15 +80,7 @@ const Work = () => {
               "Input a burger name and eat it. This data is being created in MYSQL database"
             }
           />
-           <Card
-            image={Netflix}
-            site={"https://netflix-clone-d47c3.firebaseapp.com/"}
-            repo={"https://github.com/huicho510/Netflix-clone"}
-            name={"Netflix Homepage Clone"}
-            description={
-              "Front-end Netflix landing page clone built with react"
-            }
-          />
+           
         </div>
       </main>
       <Footer />
